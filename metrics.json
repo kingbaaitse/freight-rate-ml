@@ -1,0 +1,16 @@
+{
+  "backtest": "train 2025-01-01..2025-08-31 -> test 2025-09-01..2025-10-31",
+  "backtest_mape": 0.054575,
+  "final_fit_rows": 48000,
+  "num_round": 110,
+  "features": [
+    "distance",
+    "inv_distance",
+    "equipment",
+    "enc_lane",
+    "enc_pickup",
+    "enc_delivery",
+    "weight_clean",
+    "quote_signal"
+  ]
+}
