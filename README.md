@@ -8,7 +8,7 @@ time split (train Jan–Aug 2025 → test Sep–Oct 2025).
 ```bash
 python -m pip install -r requirements.txt
 python src/model.py   # prints backtest MAPE, writes validation_predictions.csv,
-                      # fills data/december_chart_inputs.csv, writes metrics.json
+                      # and fills data/december_chart_inputs.csv, writes metrics.json
 python score.py --predictions validation_predictions.csv \
   --december-predictions data/december_chart_inputs.csv
 ```

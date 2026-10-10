@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/train_test.csv
+data/validation.csv
+data/validation_predictions_template.csv
